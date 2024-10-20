@@ -7,15 +7,19 @@
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
-  <null name="requires"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="CustomerData">1.0</value>
+  </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">1</value>
+  <value name="build">3</value>
   <null name="description"/>
   <value name="created_date">20-10-2024 21:22:07 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2024-10-20T21:22:07.317492285Z</value>
+  <value name="lastUpdated">2024-10-20T21:29:35.44756725Z</value>
+  <value name="wmProjectId">fl418b0c003e730e42150cd9</value>
+  <value name="creator">TechX User</value>
 </Values>
