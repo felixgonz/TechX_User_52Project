@@ -8,7 +8,15 @@ packages:
   gitUsername: felixgonz
   gitBranch: main
 - name: CustomerData
+  version: "1.0"
   gitServerName: Git_Christian-Kopecki
   gitUrl: https://github.ibm.com/Christian-Kopecki
   gitUsername: Christian-Kopecki
   gitBranch: main
+services:
+- serviceName: project.techx_user_52.integrations:shipOrder
+  packages:
+  - name: TechX_User_52Project
+    version: "1.0"
+  - name: CustomerData
+    version: "1.0"
