@@ -20,3 +20,11 @@ services:
     version: "1.0"
   - name: CustomerData
     version: "1.0"
+- serviceName: CustomerData.impl:getCustomerbyID
+  packages:
+  - name: CustomerData
+    version: "1.0"
+- serviceName: pub.cache:get
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.1969
