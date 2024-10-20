@@ -529,6 +529,33 @@
 
   <!-- nodes -->
 
+<MAPINVOKE NAME="Date" SERVICE="pub.date:getCurrentDateString" VALIDATE-IN="$none" VALIDATE-OUT="$none" INVOKE-ORDER="0">
+
+  <!-- nodes -->
+
+<MAP MODE="INVOKEINPUT">
+
+  <!-- nodes -->
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/pattern;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">MMMM dd,yyyy</value>
+</Values>
+</DATA>
+</MAPSET>
+</MAP>
+
+<MAP MODE="INVOKEOUTPUT">
+
+  <!-- nodes -->
+
+<MAPCOPY FROM="/value;1;0" TO="/Shipment;4;0;project.techx_user_52.documenttypes:Shipment/Shipment;2;0/ShippingDate;1;0">
+</MAPCOPY>
+</MAP>
+</MAPINVOKE>
+
 <MAPCOPY FROM="/Header;2;0/OrderID;1;0" TO="/Shipment;4;0;project.techx_user_52.documenttypes:Shipment/Shipment;2;0/OrderID;1;0">
 </MAPCOPY>
 
@@ -564,5 +591,14 @@
 
 <MAPCOPY FROM="/Customer;4;0;CustomerData.docs:Customer/address;2;0/zip;1;0" TO="/Customer;4;0;CustomerData.docs:Customer/address;2;0/zip;1;0">
 </MAPCOPY>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/Shipment;4;0;project.techx_user_52.documenttypes:Shipment/Shipment;2;0/Status;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">shipped</value>
+</Values>
+</DATA>
+</MAPSET>
 </MAP>
 </FLOW>
