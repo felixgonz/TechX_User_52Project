@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: TechX_User_52Project
+  gitServerName: felixgonz
+  gitUrl: https://github.com/felixgonz
+  gitUsername: felixgonz
+  gitBranch: main
