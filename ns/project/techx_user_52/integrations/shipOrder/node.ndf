@@ -245,7 +245,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">techxuser52</value>
-    <value name="lastModifiedDate">1729460851411</value>
+    <value name="lastModifiedDate">1729461031639</value>
     <value name="displayName">shipOrder</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -290,6 +290,15 @@
       <null name="/1/0"/>
       <null name="/1/1"/>
       <null name="/1/2"/>
+      <null name="/1/3"/>
+      <null name="/1/4"/>
+      <null name="/1/5"/>
+      <null name="/1/6"/>
+      <null name="/1/7"/>
+      <null name="/1/8"/>
+      <null name="/1/9"/>
+      <null name="/1/10"/>
+      <null name="/1/11"/>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>

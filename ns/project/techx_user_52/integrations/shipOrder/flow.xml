@@ -537,5 +537,32 @@
 
 <MAPCOPY FROM="/Items;2;1" TO="/Shipment;4;0;project.techx_user_52.documenttypes:Shipment/Items;2;1">
 </MAPCOPY>
+
+<MAPCOPY FROM="/Customer;4;0;CustomerData.docs:Customer/id;1;0" TO="/Customer;4;0;CustomerData.docs:Customer/id;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/Customer;4;0;CustomerData.docs:Customer/first-name;1;0" TO="/Customer;4;0;CustomerData.docs:Customer/first-name;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/Customer;4;0;CustomerData.docs:Customer/last-name;1;0" TO="/Customer;4;0;CustomerData.docs:Customer/last-name;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/Customer;4;0;CustomerData.docs:Customer/company-name;1;0" TO="/Customer;4;0;CustomerData.docs:Customer/company-name;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/Customer;4;0;CustomerData.docs:Customer/address;2;0/street;1;0" TO="/Customer;4;0;CustomerData.docs:Customer/address;2;0/street;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/Customer;4;0;CustomerData.docs:Customer/address;2;0/city;1;0" TO="/Customer;4;0;CustomerData.docs:Customer/address;2;0/city;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/Customer;4;0;CustomerData.docs:Customer/address;2;0/state;1;0" TO="/Customer;4;0;CustomerData.docs:Customer/address;2;0/state;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/Customer;4;0;CustomerData.docs:Customer/address;2;0/country;1;0" TO="/Customer;4;0;CustomerData.docs:Customer/address;2;0/country;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/Customer;4;0;CustomerData.docs:Customer/address;2;0/zip;1;0" TO="/Customer;4;0;CustomerData.docs:Customer/address;2;0/zip;1;0">
+</MAPCOPY>
 </MAP>
 </FLOW>
